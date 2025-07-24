@@ -1,34 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Own</title>
-    <script src="script.js" defer></script>
+    <title>Маша — Услуги и Цены</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-    <h1>Маша.com</h1>
-    <ul class="nav">
-        <li><a href="#">Обо мне</a></li>
-        <li><a href="#">Цены</a></li>
-        <li><a href="#">На главную</a></li>
-    </ul>
+        <div class="container header-container">
+            <h1 class="logo">Маша.com</h1>
+            <nav class="nav">
+                <a href="#">Обо мне</a>
+                <a href="#">Цены</a>
+                <a href="#">Главная</a>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section><h2>Услуги</h2>
-        <div class="container">
-            <div class="box"><img src="https://tse2.mm.bing.net/th/id/OIP.eoRh7fygw7UKgaBVz7NJsQHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt=""></div>
-            <div class="box"></div>
-            <div class="box"></div>
-        </div>
+        <section class="services">
+            <div class="container">
+                <h2>Мои услуги</h2>
+                <div class="cards">
+                    <div class="card">
+                        <h3>Услуга №1</h3>
+                        <p>Описание первой услуги. Всё чётко, по делу.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Услуга №2</h3>
+                        <p>Вторая услуга — отличный выбор. Клиенты довольны.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Услуга №3</h3>
+                        <p>Здесь можно коротко описать третью услугу.</p>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer>
-
+        <div class="container footer-container">
+            <p>&copy; 2025 Маша.com — Все права защищены</p>
+        </div>
     </footer>
 </body>
 </html>
